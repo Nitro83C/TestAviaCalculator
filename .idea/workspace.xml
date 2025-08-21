@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8942d855-5232-4d2f-a340-eae5e7a0fffb" name="Changes" comment="Корректировка расчета медианы" />
+    <list default="true" id="8942d855-5232-4d2f-a340-eae5e7a0fffb" name="Changes" comment="Корректировка расчета медианы">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,34 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestAviaCalculator [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestAviaCalculator [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestAviaCalculator [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestAviaCalculator [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestAviaCalculator [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestAviaCalculator [site].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestAviaCalculator [test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestAviaCalculator [validate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestAviaCalculator [verify].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guram/IdeaProjects/TestAviaCalculator&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/guram/IdeaProjects/TestAviaCalculator/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "Maven.TestAviaCalculator [clean].executor": "Run",
+    "Maven.TestAviaCalculator [compile].executor": "Run",
+    "Maven.TestAviaCalculator [deploy].executor": "Run",
+    "Maven.TestAviaCalculator [install].executor": "Run",
+    "Maven.TestAviaCalculator [package].executor": "Run",
+    "Maven.TestAviaCalculator [site].executor": "Run",
+    "Maven.TestAviaCalculator [test].executor": "Run",
+    "Maven.TestAviaCalculator [validate].executor": "Run",
+    "Maven.TestAviaCalculator [verify].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/guram/IdeaProjects/TestAviaCalculator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/guram/IdeaProjects/TestAviaCalculator/src/main/java/org/example/Main.java",
+    "settings.build.tools.auto.reload": "SELECTIVE",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -115,6 +118,7 @@
       <workItem from="1755709942806" duration="1862000" />
       <workItem from="1755716861783" duration="63000" />
       <workItem from="1755716970451" duration="31000" />
+      <workItem from="1755717011923" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project">
       <option name="closed" value="true" />
@@ -188,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755707563907</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Корректировка расчета медианы">
+      <option name="closed" value="true" />
+      <created>1755717216855</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1755717216855</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +220,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize project" />
     <MESSAGE value="Корректировка расчета медианы" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="Корректировка расчета медианы" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
