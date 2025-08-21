@@ -63,7 +63,7 @@ public class JsonParser {
                 difPrice = averagePrice - (priceList.get(count / 2) + priceList.get(count / 2 - 1)) / 2;
             }
             else {
-                difPrice = averagePrice - priceList.get((count)/2 + 1);
+                difPrice = averagePrice - priceList.get((count)/2);
             }
         }
     };
